@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');:root {
+    --primary:rgb(136, 127, 76);
+}
+body {
+    margin: 0;
+  font-family: "Poppins", sans-serif;
+    height: 3000px;
+      font-weight: 700;
+
+}
+.red {
+    border: 1px solid red;
+    outline: 1px solid red;
+}
+
+/* 
+.container {
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.item {
+    width: 22%;
+    height: 50%;
+    background: blue;
+    margin-bottom: 2%;
+
+} */
+
+.container {
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}
+.word {
+    position: absolute;
+    height: 250%;
+    width: 100%;
+    font-size: 250px;
+    text-align: center;
+    -webkit-text-stroke-color: rgb(220, 220, 220);
+    -webkit-text-stroke-width: 1px;
+    color: transparent;
+}
+.item {
+    width: 30%;
+    height: 60%;
+}
+
+/* tab */
+@media (min-width:600px) and (max-width:900px) {
+/* .item {
+    width: 40%;
+    height: 50%;
+} */
+ .item {
+    width: 40%;
+    height: 60%;
+}
+.word {
+    display: none;
+}
+}
+/* mob */
+@media (min-width:400px) and (max-width:600px) {
+     .item {
+    width: 80%;
+    height: 60%;
+}
+.word {
+    display: none;
+}
+/* .item {
+    width: 80%;
+    height: 50%;
+
+} */
+}
+
+

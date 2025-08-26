@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    margin: 0;
+     font-family: "Open Sans", sans-serif;
+    height: 3000px; 
+}
+
+/* .test {
+    width: 200px;
+    height: 200px;
+    background: rgba(102, 51, 153);
+    position: sticky;
+    left: 0;
+    top: 0;
+} */
+
+
+
+/* .box:hover {
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: static;
+} */
+/* .item {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+} */
+
+
+.container {
+    width: 80%;
+    height: 300px;
+    margin: 100px auto;
+}
+
+.room {
+    width: 22%;
+    height: 100%;
+    margin-left: 2.5%;
+    float: left;
+}
+
+.room-img {
+    width: 100%;
+    height: 80%;
+    position: relative;
+    overflow: hidden;
+}
+
+.room-img:hover img{
+    transform: scale(1.2,1.2);
+    filter: blur(2px);
+}
+
+.room-img img {
+    width: 100%;
+    height: 100%;
+        transition: 1s;
+
+}
+
+.room-content {
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+
+.btn {
+    position: absolute;
+    left: 25%;
+    bottom: 10%;
+    padding: 10px 50px;
+    border: none;
+    background: goldenrod;
+    color: black;
+    border-radius: 4px;
+}
+
+
+/* .box {
+    width: 200px;
+    height: 200px;
+    background: goldenrod;
+    margin: 100px auto;
+    transition: 1s;
+} */
+
+
+/* .box:hover { */
+    /* transform: rotate(360deg); */
+    /* transform: skew(-50deg); */
+    /* transform: scale(0.5); */
+    /* transform: translate(100px,100px); */
+    /* transform:matrix(1.03,-1.23,0.61,0.51,0,0); */
+    /* background: gray; */
+/* } */

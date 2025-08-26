@@ -1,0 +1,16 @@
+.test {
+    background: red;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+   
+}
+
+
+.box {
+    background: black;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin-right: 50px;
+}

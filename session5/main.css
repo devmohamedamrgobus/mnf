@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    margin: 0;
+     font-family: "Open Sans", sans-serif;
+}
+
+/* .container {
+    width: 90%;
+    height: 30vh;
+    margin: 30px auto;
+}
+.item {
+    width: 25%;
+    height: 100%;
+    float: left;
+    margin-left: 6%;
+}
+
+.item-icon , .item-content {
+    height: 100%;
+    float: left;
+}
+
+.item-icon {
+    width: 15%;
+    font-size: 25px;
+    margin-top: 6%;
+    color: green;
+}
+
+.item-content {
+    width:85%;
+}  */
+/* 
+.red , .green , .blue {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background: red;
+    float: right;
+}
+
+.green {
+    background: green;
+        float: right;
+
+}
+
+.blue {
+    background: blue;
+}
+
+.clr {
+    clear: both;
+} */
+
+/* .container {
+    width: 90%;
+    height: 30vh;
+    margin: 50px auto;
+}
+
+.item {
+    width: 22%;
+    height: 100%;
+    float: left;
+    margin-left: 2.5%;
+    text-align: center;
+} */
+ 
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('img/business-2.jpg') rgba(0, 0, 0, 0.662);
+    background-size: cover;
+    background-blend-mode: color;
+}
+.navbar {
+    width: 85%;
+    height: 60px;
+    margin: auto;
+}
+.navbanr-logo {
+    width: 15%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 1%;
+    img {
+        width: 70%;
+        height: 60%;
+    }
+}
+
+
+.navbanr-links {
+    width:50%;
+    height: 100%;
+    float: right;
+}
+.navbanr-links ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 5%;
+}
+.navbanr-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.navbanr-links ul li button {
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 3px;
+
+}
