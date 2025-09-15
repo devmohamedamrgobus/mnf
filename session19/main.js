@@ -100,9 +100,16 @@ btn.addEventListener("click",function(){
             img.src = user.avatar_url
         }
     }
-
-
 })
 
 
-5
+
+
+    var ajax = new XMLHttpRequest
+    ajax.open("method","url")
+    ajax.send()
+    ajax.onreadystatechange = function(){
+        if(ajax.readyState == 4){
+            // logic
+        }
+    }
